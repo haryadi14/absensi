@@ -153,7 +153,7 @@ export default function AttendancePage() {
     <div className="min-h-screen bg-slate-50 flex flex-col items-center pb-24">
       {/* Header */}
       <div className="w-full max-w-md bg-white p-5 flex justify-between items-center shadow-sm sticky top-0 z-20">
-        <h1 className="text-blue-600 font-black text-xl italic">GeoAttend.</h1>
+        <h1 className="text-blue-600 font-black text-xl italic">GeoAbsen</h1>
         <button onClick={() => supabase.auth.signOut().then(() => router.push("/"))} className="text-[10px] font-black bg-red-50 text-red-500 px-3 py-1 rounded-full">LOGOUT</button>
       </div>
 

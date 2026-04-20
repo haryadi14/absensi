@@ -32,7 +32,7 @@ export default function LoginPage() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100 p-4">
       <form onSubmit={handleLogin} className="w-full max-w-md bg-white p-8 rounded-2xl shadow-lg">
-        <h1 className="text-2xl font-bold mb-6 text-center text-gray-800">Login GeoAttend</h1>
+        <h1 className="text-2xl font-bold mb-6 text-center text-gray-800">Login GoAbsen</h1>
         
         <div className="space-y-4">
           <input 

@@ -17,7 +17,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-white text-slate-900">
       {/* Navigation */}
       <nav className="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
-        <h1 className="text-2xl font-black text-blue-600 tracking-tighter">PRO-HR</h1>
+        <h1 className="text-2xl font-black text-blue-600 tracking-tighter">GO ABESN</h1>
         <div className="space-x-6 flex items-center">
           {session ? (
             <Link href="/attendance" className="bg-blue-600 text-white px-6 py-2 rounded-full font-bold hover:bg-blue-700 transition-all">
